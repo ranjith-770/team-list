@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ body{
+    background-color: #F8A978;
+}
+#head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.vision{
+    max-width: 50%;
+    text-align: center;
+}
+.boxes{
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(4, 1fr);
+    border: none;
+    height: 600px;
+    width: 900px;
+    padding: 50px 50px;
+    background-color: #F68787;
+    margin: 20px;
+    gap: 10px;
+    border-radius: 10px;
+}
+.box{
+    border: none;
+    background-color: whitesmoke;
+}
+.name{
+    color: tomato;
+    font-size: 20px;
+}
+.role{
+    color:rgb(251, 6, 251);
+    
+}
+.description{
+    color:#51AF5B;
+}
+.icon{
+    display: flex;
+    height: 15px;
+    width: 15px;
+}
